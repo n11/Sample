@@ -1,0 +1,43 @@
+﻿.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 80%; 
+    height: 500px
+}
+
+
+/*
+.kgTopPanel { background-color: #ffffff; border: none; }
+.kgHeaderCell:last-child { border-right: none; }
+.kgHeaderButton { background-color: rgb(0, 136, 204); left: -20px; }
+.kgHeaderButtonArrow { border-top-color: #ffffff; }
+.kgColMenu { left: -20px;right: auto;background-color: #f5f5f5; border: 1px solid #e3e3e3;}
+
+
+.kgAggregate {
+background-color: #e3e3e3;
+}
+
+.kgFooterPanel { display: none; }
+
+.kgViewport {
+height: 100% !important;
+overflow-y: hidden;
+border: none;
+}
+
+.kgViewport .kgRow .kgCell {
+background-color: #ffffff;
+border-top: 1px solid #dddddd;
+border-bottom: none;
+border-left: none;
+border-right: none;
+}
+
+.kgViewport .kgRow:hover .kgCell {
+background-color: #f5f5f5;
+}
+
+*/
+
+
+
