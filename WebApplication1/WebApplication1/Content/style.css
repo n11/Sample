@@ -4,6 +4,10 @@
     height: 500px
 }
 
+.green {
+    background-color: green;
+    color: white;
+}
 
 /*
 .kgTopPanel { background-color: #ffffff; border: none; }
@@ -39,5 +43,8 @@ background-color: #f5f5f5;
 
 */
 
+.kgRow.selected {
+    background-color: rgb(212,212,212);
+}
 
 

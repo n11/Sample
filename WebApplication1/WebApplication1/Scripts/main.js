@@ -1012,8 +1012,14 @@
 		columnDefs: [{ field: 'name', displayName: 'Name' },
 		//columnDefs: [{ field: 'name', displayName: 'Name', cellTemplate: '<div class="glyphicon glyphicon-user" data-bind="text:$data.getProperty($parent)" style="vertical-align: middle"></div>' },
 		//columnDefs: [{ field: 'name', displayName: 'Name', cellTemplate: '<div class="glyphicon glyphicon-user" data-bind="html:$data.getProperty($parent)" style="vertical-align: middle"></div>' },
-					 //{ field: 'age', displayName: 'Age', cellTemplate: '<div><div data-bind=" attr: { \'class\': \'kgCellText colt\' + $index()}, css: { green: $data.getProperty($parent) > 30 }, html: $data.getProperty($parent)"></div>' }]
-					   { field: 'age', displayName: '年齢', cellTemplate: '<div class="glyphicon glyphicon-user" style="vertical-align: middle;  border: 1px solid red;" data-bind="html:$data.getProperty($parent)"></div>' }]
+					 //{ field: 'age', displayName: 'Age', cellTemplate: '<div data-bind=" attr: { \'class\': \'kgCellText colt\' + $index()}, css: { green: $data.getProperty($parent) > 30 }, html: $data.getProperty($parent)"></div>' }]
+					   {
+					   	field: 'age',
+					   	displayName: '年齢',
+					   	//cellTemplate: '<div class="glyphicon glyphicon-user" data-bind="text:$data.getProperty($parent)"></div>'
+					   	cellTemplate: '<div class="glyphicon glyphicon-user" data-bind="attr: { \'class\': \'kgCellText colt\' + $index()}, text:$data.getProperty($parent)"></div>'
+					   	//cellTemplate: '<div data-bind=" attr: { \'class\': \'kgCellText colt\' + $index()}, css: { green: $data.getProperty($parent) > 30 }, html: $data.getProperty($parent)"></div>'
+					   }]
 	};
 };
 

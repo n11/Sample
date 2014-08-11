@@ -182,7 +182,7 @@
 }
 
 /******** Rows ********/
-.kgRow {
+.kgRow {	
     position: absolute;
     border-bottom: 1px solid rgb(229, 229, 229);
 }
@@ -193,7 +193,8 @@
     background-color: rgb(253, 253, 253);
 }
 .kgRow.selected {
-    background-color: rgb(189, 208, 203);
+    /*background-color: rgb(189, 208, 203);*/
+    background-color: rgb(212,212,212);
 }
 
 /******** Cells ********/
