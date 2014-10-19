@@ -29,7 +29,8 @@ namespace WebApplication1
 					  "~/Scripts/koGrid-{version}.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/sample").Include(
-					  "~/Scripts/main.js"));
+					  "~/Scripts/main.js",
+					  "~/Scripts/test.js"));
 
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
